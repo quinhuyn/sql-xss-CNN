@@ -1,0 +1,3 @@
+SQL: Label 2
+XSS: Label 1
+Normal request: Label 0
